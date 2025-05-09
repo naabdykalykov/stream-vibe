@@ -3,6 +3,7 @@
 @mixin fluid-text($max: 48, $min: 16) {
   font-size: fluid($max, $min);
 }
+
 @mixin hide {
   opacity: 0;
   visibility: hidden;
@@ -45,7 +46,7 @@
 @mixin abs-y {
   position: absolute;
   top: 50%;
-  traslate: 0 -50%;
+  translate: 0 -50%;
 }
 
 @mixin square($size) {
@@ -53,7 +54,7 @@
   height: $size;
 }
 
-@mixin visually-hidden{
+@mixin visually-hidden {
   position: absolute !important;
   width: 1px !important;
   height: 1px !important;
@@ -67,7 +68,7 @@
 }
 
 @mixin focus-visible {
-  outline: 2px dashed var(--volor-white);
+  outline: 2px dashed var(--color-white);
   outline-offset: 4px;
   transition-duration: 0s !important;
 }
